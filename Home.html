@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+  </head>
+
+  <body>
+    <h1>Home Page</h1>
+    <p id="test"></p>
+    <script>
+      const test = window.sessionStorage.getItem("test");
+      document.getElementById("test").innerText = test;
+    </script>
+  </body>
+</html>
